@@ -1,3 +1,8 @@
+#Exercise 2
+#shakespeare = ‘All the world is a stage, and all the men and women merely players. They have their exits and their entrances, And one man in his time plays many parts'.
+#Create a function that returns a string with all the words of the sentence shakespeare ordered alphabetically. Eliminate punctuation marks.(Tip: the three first words should be ‘ a all all’, this time duplicates are allowed and remember that there are words in mayus)
+
+
 def sort_string(shakespeare):
     #I do it like this in order to not use libraries to remove the punctuation.
     punctuation = [',', '.', '!', '?', ';', ':', "'", '"']  
