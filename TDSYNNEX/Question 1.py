@@ -1,3 +1,7 @@
+#Exercise 1
+#numbers_disordered = [ 4, 1, 6, 43, 16, 88, 2, 100]
+#Create a function that returns as short as possible a list of ordered numbers. The shorter the better. (Tip: now you have to create the algorithm) DON’T USE function SORT
+
 def sort_numbers(numbers_disordered):
     if len(numbers_disordered) <= 1:
         return numbers_disordered
